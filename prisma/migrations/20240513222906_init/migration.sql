@@ -8,6 +8,7 @@ CREATE TABLE "Creature" (
     "extinct" BOOLEAN NOT NULL DEFAULT false,
     "createAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updateAt" TIMESTAMP(3) NOT NULL
+    
 );
 
 -- CreateIndex
